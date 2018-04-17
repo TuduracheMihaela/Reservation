@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NailedIT</string>
+    <string name="activity_customer">Customers</string>
+    <string name="activity_tablet">Tables</string>
+</resources>
