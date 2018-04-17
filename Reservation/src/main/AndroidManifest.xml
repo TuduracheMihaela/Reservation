@@ -25,19 +25,6 @@
         <activity android:name=".TableMapActivity"
                 android:label="@string/activity_tablet">
         </activity>
-
-        <service
-            android:enabled="true"
-            android:name="com.nailedit.project.nailedit.ServiceBackground.MyService" >
-        </service>
-
-        <receiver
-            android:name="com.nailedit.project.nailedit.ServiceBackground.MyReceiver"
-            android:exported="false" >
-            <intent-filter >
-                <action android:name="com.nailedit.project.nailedit.Service.Receiver"/>
-            </intent-filter>
-        </receiver>
     </application>
 
 </manifest>
